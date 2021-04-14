@@ -1,0 +1,90 @@
+
+LINUX - 50 useful commands
+
+
+
+Changing users
+
+1. sudo su - become a root
+2. sudi -l - see the permission, who can do what
+-----------------------------------------
+Managing users
+
+3. useradd – adding a new user
+4. userdel – deleting a user
+5. passwd - add password
+6. cat /etc/passwd - checking the existing users
+-----------------------------------------
+Login Sesion info
+
+7. hostname – print system hostname
+8. uname – print system information
+9. whoami – print current user
+10. users - displays the names of logged in users
+11. who - кой и кога се е логнал
+12. w(what) - displays detailed info about the logged in users (which commands are they running
+at the moment)
+13. groups – displays the names of the groups the user is member of
+-----------------------------------------
+Files manipulations
+
+14. cd – change directory
+15. cd .. - go back to the previous directory
+16. ls – list directory contents
+17. ls -al - see the hidden files
+18. pwd – print working directory
+19. mkdir – make directory
+20. rmdir – remove directory
+21. rm -r - remove everything
+22. rm -rf - deletes both the directory and its contents
+23. diff - compares two files
+24. wc - is used to count words, lines and characters in given text
+25. touch – creates a file
+26. cp – copy
+27. mv -move
+28. rm – remove
+29. cat – View Contents 
+30. tac – reverse concatenate
+31. more – lists the content of a file screen by screen
+32. less – more options than more
+33. head – lists the first 10 lines of a file
+34. tail – lists the last 10 lines of a file
+35. echo – display line of text
+36. ll - see the permission of the files
+-----------------------------------------
+Listing
+
+37. lshw – hardware details
+38. lsof - list open files
+39. lsmod – loaded modules
+40. lspci - PCI buses and devices in the system
+41. lsblk - all or the specified block devices
+-----------------------------------------
+Get help
+
+42. help
+43. man
+44. info 
+-----------------------------------------
+Logs
+
+45. /var/log/auth.log - Linux systems log all authentication attempts in a discrete file
+46. /var/log/messages - general system activity log
+47. /var/log/syslog - logs everything, except auth related messages
+48. last -a - last login session
+-----------------------------------------
+VI editor
+
+49. wq! - saving changes and exit
+50. :q	Exit without save
+
+
+
+
+
+
+
+
+
+
+
